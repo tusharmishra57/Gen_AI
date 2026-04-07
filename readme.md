@@ -12,8 +12,8 @@ Design and implement a **Retrieval-Augmented Generation (RAG)** system capable o
 ### 📂 Problem Statement
 LLMs often generate incorrect responses when specialized knowledge is required. This project implements a RAG-based application to retrieve relevant documents and inject them into the prompt context.
 
-**Selected Domains (Choose one):**
-*   Healthcare / Legal / University / Research / Finance / Technical / Customer Support
+**Selected Domain :**
+*   Research 
 
 ### 🛠 System Components
 *   **Document Ingestion:** Preprocessing of raw domain data.
@@ -23,11 +23,7 @@ LLMs often generate incorrect responses when specialized knowledge is required. 
 *   **Prompt Engineering:** Semantic search and ranking strategies.
 *   **LLM Generation:** Inference using models like **LLaMA-3.1, Gemma-3,** or GPT-style open models.
 
-### 📤 Deliverables
-1.  **Source Code:** Modular design for ingestion, retrieval, and generation.
-2.  **Experimental Report:** An 8–10 page analysis of configurations.
-3.  **Comparative Evaluation:** Metrics comparison between two different system setups.
-4.  **Demonstration:** Screenshots and sample outputs of the system in action.
+
 
 ---
 
@@ -55,17 +51,6 @@ Adapting general-purpose LLMs (LLaMA, Mistral, Gemma) to perform specialized tas
     *   **LoRA / QLoRA**
     *   HuggingFace Transformers Library
 
-### 📤 Deliverables
-1.  **Training Pipeline:** Complete source code for preprocessing and fine-tuning.
-2.  **Dataset Documentation:** Full description of the curated dataset.
-3.  **Experimental Report (8–10 pages):** 
-    *   Methodology and Training configuration.
-    *   Evaluation results (Accuracy, BLEU/ROUGE).
-4.  **Comparative Analysis:** Performance improvement of the **Fine-Tuned model vs. Base model.**
-5.  **Demonstration:** Screenshots showing the difference in output quality.
+
 
 ---
-
-
-# Install dependencies
-pip install -r requirements.txt
